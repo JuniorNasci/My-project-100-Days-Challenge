@@ -1,0 +1,91 @@
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace
+}
+
+
+.container__dos__numeros{
+    width: 30.5rem;
+    height: 30.5rem;
+    border-radius: 32px;
+    background-image: linear-gradient(to top right, #433A9F,#4EC4C9);
+    box-shadow: 4px 24px 80px rgba(0, 0, 0, 0.3);
+}
+
+.cabeca__numero__um{
+    width: 40px;
+    height: 80px;
+    rotate: 45deg;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    margin-top: 120px;
+    margin-left: 75px;
+    position: absolute;
+    z-index: 0;
+}
+.corpo__numero__um{
+    width: 50px;
+    height: 180px;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 120px;
+    margin-left: 100px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.329);
+    position: absolute;
+    z-index: 3;
+}
+
+
+.numero__zero__central{
+    width: 80px;
+    height: 80px;
+
+    margin-top: 120px;
+    margin-left: 120px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 360px;
+    border: 50px solid rgb(255, 255, 255);
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 2;
+}
+
+.numero__zero__direita{
+    width: 80px;
+    height: 80px;
+
+    margin-top: 120px;
+    margin-left: 260px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 360px;
+    border: 50px solid rgb(255, 255, 255);
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 1;
+}
+
+.titulo__principal{
+    color: white;
+    font-size: 110px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 120px;
+}
+
+.titulo__secundario{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 390px;
+    margin-left: 130px;
+}
