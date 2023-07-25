@@ -1,4 +1,4 @@
-Esse foi o meu primeiro dia do desafios dos 100 dias aprendendo Front ene
+Esse foi o meu primeiro dia do desafios dos 100 dias aprendendo Front end
 
 this is my first day in Css challenge, thank you.
 
