@@ -1,0 +1,180 @@
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main{
+    background-color: #3FAF82;
+    width: 500px;
+    height: 500px;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box__button{
+    background: none;
+    border: none;
+    position: relative;
+    height: 150px;
+    width: 200px;
+}
+.box__button:hover{
+    cursor: pointer;
+}
+
+.line__one{
+    width: 200px;
+    height: 20px;
+    border-radius: 16px ;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411)   ;
+    position: absolute;
+    top: 10px;
+    rotate: 0deg;
+    z-index: 3;
+}
+
+.line__two{
+    width: 200px;
+    height: 20px;
+    border-radius: 16px ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    background-color: rgb(255, 255, 255);;
+    position: absolute;
+    top: 65px;
+    z-index: 1;
+}
+
+.line__three{
+    width: 200px;
+    height: 20px;
+    rotate: 0deg;
+    border-radius: 16px ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    background-color: rgb(255, 255, 255);;
+    z-index: 2;
+    position: absolute;
+    top: 115px;
+}
+
+
+@keyframes line__one__animation{
+
+    0%{
+        top:10px;
+        rotate: 0deg;
+    }
+
+    50%{
+        top:65px;
+        rotate: 0deg;
+
+    }
+
+    100%{
+        top:65px;
+        rotate: 135deg;
+    }
+
+}
+
+@keyframes line__two__animation{
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(0);
+    }
+
+}
+
+@keyframes line__three__animation{
+    0%{
+        top:115px;
+        rotate: 0deg;
+    }
+
+    50%{
+        top:65px;
+        rotate: 0deg;
+
+    }
+
+    100%{
+        top:65px;
+        rotate: 45deg;
+    }
+}
+
+
+@keyframes line__one__animation__back{
+
+    0%{
+        top:65px;
+        rotate: 135deg;
+    }
+
+    50%{
+        top:65px;
+        rotate: 0deg;
+
+    }
+
+
+    100%{
+        top:10px;
+        rotate: 0deg;
+    }
+
+}
+
+@keyframes line__two__animation__back{
+    0%{
+        transform:scale(0);
+    }
+
+    50%{ 
+       transform: scale(0);
+    }
+
+    100%{
+        transform: scale(1);
+       
+    }
+
+}
+
+@keyframes line__three__animation__back{
+    0%{
+        rotate: 45deg;
+        top : 65px
+    }
+
+    50%{
+        top:65px;
+        rotate: 0deg;
+
+    }
+
+    100%{
+        top:115px;
+        rotate: 0deg;
+    }
+}
